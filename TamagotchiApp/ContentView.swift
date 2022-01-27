@@ -23,7 +23,7 @@ struct ContentView: View {
                 Text(tamagotchi.getDetails())
                 Button("Feed", action: {
                     tamagotchi.feed()
-
+                    
                 })
             }
         }
